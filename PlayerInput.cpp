@@ -52,5 +52,9 @@ void PlayerInput::CatchInput()
             }
         }
     }
+
+    return;
     #endif // _WIN32
+
+    throw;
 }
